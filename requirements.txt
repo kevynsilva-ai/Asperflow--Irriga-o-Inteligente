@@ -1,0 +1,3 @@
+# AsperFlow usa apenas a biblioteca padrão do Python (3.10+).
+# Única dependência: framework de testes.
+pytest>=8.0

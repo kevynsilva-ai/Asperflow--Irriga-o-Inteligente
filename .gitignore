@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+*.log
+# Dados gerados pela execução (o seed versionado fica em data/seed_*.json)
+data/saida_*.json
