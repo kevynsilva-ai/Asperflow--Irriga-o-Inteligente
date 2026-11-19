@@ -9,3 +9,14 @@ Depende de: nada. NÃO importe nada do projeto aqui (evita import circular).
 Atenção: cada exceção precisa ser lançada em um fluxo real e ter teste; senão é "enfeite" (8.2).
 Ordem: PRIMEIRO PR do projeto (todos usam).
 """
+
+class ErroAgro(Exception):
+    pass
+class ErroLeituraSensor(ErroAgro):
+    pass
+class ErroBombaIndisponivel(ErroAgro):
+   pass
+class ErroCotaExcedida(ErroAgro):
+    pass
+class ErroPersistencia(ErroAgro):
+    pass
